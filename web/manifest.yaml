@@ -13,11 +13,11 @@ spec:
     image: gashok120707/web:k8
     resources:
       requests:
-        cpu: "100m"
-        memory: "128Mi"
+        cpu: "500m"
+        memory: "256Mi"
       limits:
-        cpu: "100m"
-        memory: "128Mi"
+        cpu: "1000m"
+        memory: "512Mi"
     ports:
       - containerPort: 80
 ---
